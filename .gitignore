@@ -1,0 +1,41 @@
+# Rust build artifacts
+/target/
+debug/
+release/
+*.rs.bk
+*.rlib
+*.rmeta
+*.d
+
+# Cargo lock for binaries (comment out for libraries)
+# Cargo.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Profiling
+*.prof
+*.profraw
+*.profdata
+
+# Coverage
+coverage/
+*.gcno
+*.gcda
